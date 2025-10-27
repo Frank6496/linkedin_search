@@ -18,7 +18,7 @@ from pydantic import BaseModel
 import httpx, os, re, argparse, json
 from typing import Optional, Dict, Any
 
-SERPAPI_KEY = os.getenv("SERPAPI_API_KEY", "80758a360a8adaf14cb44c24f9510ac49a7615835fd6a569e128ce441408bbea")
+SERPAPI_KEY = os.getenv("SERPAPI_API_KEY", "3ed023e50ca8a526a1e37aca05e65139803db8e718331a8e929e5bb6a0e9e1f6")
 SERPAPI_ENDPOINT = "https://serpapi.com/search"
 ENGINE = "google"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
